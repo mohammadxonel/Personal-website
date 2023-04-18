@@ -38,3 +38,16 @@ p {
     letter-spacing: 0.05rem;
 }
 
+.section-title {
+    font-size: 4rem;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+
+.section-title span {
+    color: crimson;
+}
