@@ -71,3 +71,14 @@ p {
     background-color: crimson;
 }
 
+.brand h1 {
+    font-size: 4.8rem;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Monoton', cursive;
+}
+
+.brand h1 span {
+    color: crimson;
+}
+
