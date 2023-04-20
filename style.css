@@ -325,3 +325,8 @@ p {
     padding: 100px 0;
 }
 
+#services .service-top {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
