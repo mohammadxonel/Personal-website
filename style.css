@@ -1,4 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+
 * {
     padding: 0;
     margin: 0;
@@ -156,13 +157,13 @@ p {
 }
 
 #header .nav-list ul li:hover a::after {
-	transform: translate(-50%, -50%) scale(1);
-	letter-spacing: initial;
+    transform: translate(-50%, -50%) scale(1);
+    letter-spacing: initial;
 }
 
 #header .nav-list ul li::hover a {
     color: crimson;
-    font-family: 'Monoton' cursive;
+    font-family: 'Monoton'cursive;
 }
 
 #header .hamburger {
@@ -208,7 +209,7 @@ p {
     left: 0;
     background-color: white;
     transition: 0.3s ease;
-    transition-property: top,bottom;
+    transition-property: top, bottom;
 }
 
 #header .hamburger .bar::after {
@@ -279,7 +280,7 @@ p {
 #hero h1:nth-child(3) {
     animation: text_reveal_name 0.5s ease forwards;
     animation-delay: 3s;
-    font-family: 'Monoton', cursive; 
+    font-family: 'Monoton', cursive;
 }
 
 #hero h1:nth-child(4) {
@@ -330,7 +331,7 @@ p {
     margin: 0 auto;
 }
 
-#services .service-bottom{
+#services .service-bottom {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -366,4 +367,22 @@ p {
     z-index: -1;
 }
 
+#services .service-bottom .icon {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 20px;  
+}
 
+#services .service-item h2 {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#services .service-item p {
+    color: white;
+    text-align: left;
+}
+
+/* End Services Section */
