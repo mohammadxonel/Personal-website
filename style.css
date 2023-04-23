@@ -626,3 +626,10 @@ p {
 #footer .social-item:hover img {
 	filter: grayscale(0);
 }
+
+#footer p {
+	color: white;
+	font-size: 1.3rem;
+}
+
+/* End Footer */
