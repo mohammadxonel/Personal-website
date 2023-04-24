@@ -697,5 +697,32 @@ p {
 		flex-basis: 45%;
 		margin: 2.5%;
 	}
-    
+
 	/* End Services Section */
+
+    /* Project */
+    
+	#projects .project-item {
+		flex-direction: row;
+	}
+
+	#projects .project-item:nth-child(even) {
+		flex-direction: row-reverse;
+	}
+
+	#projects .project-item {
+		height: 400px;
+		margin: 0;
+		width: 100%;
+		border-radius: 0;
+	}
+
+	#projects .all-projects .project-info {
+		height: 100%;
+	}
+
+	#projects .all-projects .project-img {
+		height: 100%;
+	}
+
+    /* End Project */
