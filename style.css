@@ -678,12 +678,24 @@ p {
 		font-size: 2.5rem;
 		padding: 20px 60px;
 	}
+
 	h1.section-title {
 		font-size: 6rem;
 	}
 
     /* Hero */
+
 	#hero h1 {
 		font-size: 7rem;
 	}
+
 	/* End Hero */
+
+    /* Services Section */
+
+	#services .service-bottom .service-item {
+		flex-basis: 45%;
+		margin: 2.5%;
+	}
+    
+	/* End Services Section */
