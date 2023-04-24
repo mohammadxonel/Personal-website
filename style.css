@@ -701,7 +701,7 @@ p {
 	/* End Services Section */
 
     /* Project */
-    
+
 	#projects .project-item {
 		flex-direction: row;
 	}
@@ -726,3 +726,34 @@ p {
 	}
 
     /* End Project */
+
+    /* About */
+
+	#about .about {
+		flex-direction: row;
+	}
+
+	#about .col-left {
+		width: 600px;
+		height: 400px;
+		padding-left: 60px;
+	}
+
+	#about .about .col-left .about-img::after {
+		left: -45px;
+		top: 34px;
+		height: 98%;
+		width: 98%;
+		border: 10px solid crimson;
+	}
+
+	#about .col-right {
+		text-align: left;
+		padding: 30px;
+	}
+
+	#about .col-right h1 {
+		text-align: left;
+	}
+    
+	/* End About */
