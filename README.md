@@ -2,7 +2,7 @@
 
 
 ### Project Live :
-https://mohammadxxali.github.io/Personal-website/#hero
+https://mohammadxonel.github.io/Personal-website/#hero
 
 --------
 
